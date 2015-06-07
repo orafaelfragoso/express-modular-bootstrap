@@ -5,7 +5,7 @@ var express      = require('express'),
 // load modules
 require('./modules.js')(app);
 require('./config.js')(app);
-require('./routes.js')(app);
+require('./middlewares.js')(app);
 
 
 module.exports = app;
