@@ -15,7 +15,7 @@
     "preinstall": "node ./bin/preinstall",
     "start": "NODE_ENV=development nodemon --debug ./bin/www",
     "production": "NODE_ENV=production nodemon ./bin/www",
-    "test": "tape \"modules/*/test/*-test.js\""
+    "test": ""
   },
   "keywords": ["express", "modular", "bootstrap"],
   "author": "Rafael Fragoso <rafaelfragosom@gmail.com>",

@@ -9,7 +9,7 @@ var express      = require('express'),
 module.exports = function(app) {
 
   // view engine setup
-  app.set('views', path.join(__dirname, 'modules/_shared/views'));
+  app.set('views', path.join(__dirname, 'lib/_shared/views'));
   app.set('view engine', 'jade');
 
   //app.use(favicon(__dirname + '/public/favicon.ico'));

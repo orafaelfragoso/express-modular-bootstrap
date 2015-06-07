@@ -2,13 +2,13 @@ var fs = require('fs');
 
 module.exports = function(app) {
 
-  if ( fs.existsSync('./modules') ) {
+  if ( fs.existsSync('./lib') ) {
 
-    fs.readdirSync('./modules').forEach(function(folder) {
+    fs.readdirSync('./lib').forEach(function(folder) {
       if (folder === '_shared')
         return;
 
-      var loadedModule = require('./modules/' + folder + '/index.js');
+      var loadedModule = require('./lib/' + folder + '/index.js');
       app.use(loadedModule);
     });
 
