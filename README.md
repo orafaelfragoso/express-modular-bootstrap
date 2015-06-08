@@ -22,12 +22,15 @@ I can do this all day...
 - Shared module for reusable code (DRY)
 - Created separated files for each purpose (App, Config, Routes) instead of being everything inside one file.
 - Using nodemon to reload environment
+- Gulp Tasks
+  - Compiling, concatenating and compressing SASS with SourceMaps
+  - Optimizing Images
+  - JSHinting the JS files
 
 ## Things that are missing
 
 - Test Suite
 - Better module's folder structure (HIGH PRIORITY)
-- Manage module's assets with Grunt or Gulp
 - Refactoring or Engineering Suggestions
 
 ## CONTRIBUTE!
