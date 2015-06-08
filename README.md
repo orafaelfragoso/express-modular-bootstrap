@@ -33,6 +33,11 @@ I can do this all day...
 - Better module's folder structure (HIGH PRIORITY)
 - Refactoring or Engineering Suggestions
 
+## Running the project
+
+`npm install` and `npm start` to start the server.
+`gulp` to tell gulp to watch for file changes
+
 ## CONTRIBUTE!
 
 I think this is a really cool project to work on.
