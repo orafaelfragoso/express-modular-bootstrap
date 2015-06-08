@@ -16,4 +16,4 @@ module.exports = function(app) {
     throw '/modules folder does not exist.';
   }
 
-}
+};

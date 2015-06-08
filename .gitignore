@@ -16,3 +16,8 @@ Desktop.ini
 node_modules
 *.log
 *.gz
+
+# project
+public/images
+public/stylesheets
+public/vendors
