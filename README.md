@@ -36,6 +36,7 @@ I can do this all day...
 ## Running the project
 
 `npm install` and `npm start` to start the server.
+
 `gulp` to tell gulp to watch for file changes
 
 ## CONTRIBUTE!
