@@ -13,7 +13,7 @@ var fs      = require('fs'),
     cp      = require('child_process');
 
 // get library path
-var lib = resolve(__dirname, '../modules/');
+var lib = resolve(__dirname, '../lib/');
 
 fs.readdirSync(lib)
   .forEach(function (mod) {
